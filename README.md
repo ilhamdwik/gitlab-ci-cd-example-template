@@ -1,6 +1,6 @@
 # gitlab-ci-cd-example-template
 
-///
+```
 variables:
   IMAGE_NAME: ilhaskam/wayshub-frontend-cicd-gitlab
   IMAGE_TAG: latest
@@ -51,4 +51,4 @@ deploy:
       /usr/bin/docker login -u $REGISTRY_USER -p $REGISTRY_PASSWORD &&
       /usr/bin/docker build -t $IMAGE_NAME:$IMAGE_TAG . &&
       /home/ubuntu/.local/bin/docker-compose up -d"
-///
+```
