@@ -1,5 +1,7 @@
 # gitlab-ci-cd-example-template
 
+## simpan file pipeline CI/CD dalam format .gitlab-ci.yml
+
 ```
 variables:
   IMAGE_NAME: ilhaskam/wayshub-frontend-cicd-gitlab
